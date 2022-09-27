@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first-item{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+}
+.second-item{
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    float: right;
+}
+
+.main-box{
+    background-color: blueviolet;
+}
+.main-box:after {
+    content: '';
+    clear: both;
+    display: block;
+}
