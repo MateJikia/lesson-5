@@ -25,3 +25,10 @@
     clear: both;
     display: block;
 }
+.wrapper{
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+
+    background-color: green;
+}
