@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.first-item{
+/* .first-item{
     height: 200px;
     width: 200px;
     background-color: blue;
@@ -31,4 +31,35 @@
     margin: 20px auto;
 
     background-color: green;
+}
+
+.first-item:first-child{
+    width: 200px;
+} */
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+body{
+    padding: 2%;
+}
+.parents-block{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 2%;
+}
+.child-block{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    
+}
+.small-box{
+    height: 100%;
+    width: 33%;
+    background-color: blue;
+    display: inline-block;
 }
